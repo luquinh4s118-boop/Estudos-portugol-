@@ -1,0 +1,36 @@
+programa
+{
+	funcao inicio ()
+	{
+		logico A, B
+ escreva("=== TESTANDO OS 4 CENÁRIOS DA disjunção exclusiva () ===","\n")
+   escreva("-----------------------------------------------","\n")
+   escreva("A        | B        | A  B (Resultado)","\n")
+   escreva("-----------------------------------------------","\n")
+
+   // CENÁRIO 1: Falso e Falso
+   A = falso
+   B = falso
+   escreva(A, "    | ", B, "    | ",( A ou B) e nao (A e B),"\n")
+
+   // CENÁRIO 2: Falso e Verdadeiro
+   A = falso
+   B = verdadeiro
+   escreva(A, "    | ", B, " | ",(A ou B) e nao (A e B) ,"\n")
+
+   // CENÁRIO 3: Verdadeiro e Falso
+   A = verdadeiro
+   B = falso
+   escreva(A, " | ", B, "    | ",(A ou B) e nao (A e B) ,"\n")
+
+   // CENÁRIO 4: Verdadeiro e Verdadeiro
+   A = verdadeiro
+   B = verdadeiro
+   escreva(A, " | ", B, " | ", (A ou B) e nao (A e B),"\n")
+   
+   escreva("-----------------------------------------------","\n")
+   escreva("Conclusão: O 'ou' só é VERDADEIRO se UM deles forem!","\n")
+		
+		
+	}
+}

@@ -1,0 +1,56 @@
+programa
+{
+	funcao inicio ()
+	{
+		logico A, B
+ escreva("=== TESTANDO OS 4 CENÁRIOS Da condicional () ===","\n")
+   escreva("-----------------------------------------------","\n")
+   escreva("A        | B        | A  B (Resultado)","\n")
+   escreva("-----------------------------------------------","\n")
+
+   // CENÁRIO 1: Falso e Falso
+   A = falso
+   B = falso
+   se ( nao A ou B) {
+   	escreva(A, "    | ", A, "    | ",nao A,"\n")
+   	
+   }senao
+   escreva(A, "    | ", B, "    | ",B,"\n")
+
+   
+   // CENÁRIO 2: Falso e Verdadeiro
+   A = falso
+   B = verdadeiro
+   se  (nao A ou B) {
+   	escreva(A, "    | ", A, "    | ",B,"\n")
+   	
+   }senao 
+   escreva(A, "    | ", B, "    | ",A,"\n")
+   
+
+   // CENÁRIO 3: Verdadeiro e Falso
+   A = verdadeiro
+   B = falso
+   se (nao A ou B){
+   	escreva(A, "    | ", A, "    | ",A,"\n")
+   	
+   }senao 
+   escreva(A, "    | ", B, "    | ",B,"\n")
+   
+
+   // CENÁRIO 4: Verdadeiro e Verdadeiro
+   A = verdadeiro
+   B = verdadeiro
+   se (nao A ou B){
+   escreva(A, "    | ", A, "    | ",A,"\n")
+		
+   }senao
+   escreva(A, "    | ", B, "    | ",nao B,"\n")
+	
+   
+   escreva("-----------------------------------------------","\n")
+   escreva("Conclusão: é falso quando A for verdadeiro e B falso ","\n")
+		
+		
+	}
+}

@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro valor_prod
+		
+		// compra de um produto 
+		
+		
+		escreva("esse produto custa 200 reais ?, quanto voce tem ?","\n")
+		leia(valor_prod)
+		se (valor_prod >=200){
+			escreva("voce pode comprar esse produto ! ")
+		}
+	}
+}

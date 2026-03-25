@@ -1,0 +1,30 @@
+programa
+{
+	funcao inicio ()
+	{
+	cadeia nome	
+	inteiro idade 
+	
+	escreva ("digite o nome: ")
+	leia (nome)
+	escreva ("digite a idade: ")
+	leia(idade)
+	escreva ("")
+	escreva("resultado da análise: ","\n")
+	se (nome == "João"){
+		escreva(" o nome digitado foi joão ","\n")
+		
+	}senao se( nome == "Maria"){
+		escreva ("o nome digitado foi maria ","\n")
+		
+	}senao{
+	escreva("nome é diferente de João e Maria ","\n")
+	}
+	se (idade >=18) {
+		escreva(nome, " é maior de idade")
+	}senao {
+	escreva (nome, " é menor de idade")
+		
+	}
+	}
+}

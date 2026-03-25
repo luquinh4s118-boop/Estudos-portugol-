@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro temp
+		
+		// algoritmo temperatura 
+		
+		
+		escreva("qual a temperatura do ar acondicionado da sala ?","\n")
+		leia(temp)
+		se (temp >=16){
+			escreva(" está frio ")
+		}senao
+		escreva("está quente ")
+	}
+}

@@ -1,0 +1,15 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro x, num 
+	escreva("digite um numero: ","\n")
+	leia(num)
+	para (x=1;x<=10;x++){
+		escreva(num," x ",x," = ",num*x,"\n")
+		
+		
+	}
+		
+	}
+}

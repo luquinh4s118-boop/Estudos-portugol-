@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro ano
+		
+		// algortimo maior de idade
+		
+		
+		escreva("em ano que voce nasceu ? ","\n")
+		leia(ano)
+		se (ano >=2008){
+			escreva("voce  é maior de idade !! ")
+		}
+	}
+}

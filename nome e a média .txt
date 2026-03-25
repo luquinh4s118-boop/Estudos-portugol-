@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio ()
+	{
+	cadeia nome	
+	inteiro idade 
+	
+	escreva ("digite o nome: ")
+	leia (nome)
+	escreva("resultado da análise: ","\n")
+	se (nome == "João"){
+		escreva(" o nome digitado foi joão ","\n")
+		escreva(" média 8,0","\n")
+		escreva (" aprovado","\n")
+		
+	}senao se( nome == "Maria"){
+		escreva ("o nome digitado foi maria ","\n")
+		escreva ("media 5,0","\n")
+		escreva ("reprovado","\n")
+	}senao{
+	escreva("nome é diferente de João e Maria ","\n")
+	}
+	
+	}
+}

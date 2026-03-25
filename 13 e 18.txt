@@ -1,0 +1,33 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro num, idade, idade2
+		escreva ("digite a idade: ")
+		leia (num)
+		
+		idade = 18
+		idade2 = 13
+		
+		se ( num >= idade ){
+			escreva ("idade inválida ")
+		}senao se (num >  idade2 e num < idade ){
+			escreva ("a idade esta entre 13 e 18 ")
+		}senao se ( num <= idade2 ){
+			escreva ("idade inválida ")
+		}
+		
+		
+		
+		
+		
+	
+		}
+		
+		
+		}
+		
+		
+		
+	
+}

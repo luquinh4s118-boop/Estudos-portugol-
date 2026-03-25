@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro alunos
+		
+		// algoritmo sala de aula 
+		// considere a sala  com mais de 30 lotada 
+		
+		
+		escreva("quantos alunos tem na sala ?","\n")
+		leia(alunos)
+		se (alunos >=30){
+			escreva(" sala está lotada. ")
+		}senao
+		escreva("sala nao está lotada. ")
+	}
+}
