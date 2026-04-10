@@ -1,0 +1,28 @@
+programa
+{
+	funcao inicio ()
+	{
+		real despesa   , total=0,media 
+		inteiro quantidade =0
+		
+		
+		escreva("digite um valor: ")
+		leia(despesa)
+		enquanto (despesa >= 1 ){
+		quantidade = quantidade+1
+		total = total + despesa
+		escreva("digite um valor: ")
+		leia(despesa)
+				
+			
+			
+		}
+		se (quantidade > 0){
+		media = total / quantidade 
+		
+		escreva("a quantidade de depespesas foi: ",quantidade,"\n")
+		escreva("o valor total das despesas foi: ",total,"\n")
+        escreva("a media dos valores foi: ",media)
+		}
+	}
+}

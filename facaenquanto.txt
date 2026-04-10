@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    inteiro x=1, num, soma=0, soma2=0
+
+    faca {
+      escreva("digite um numero: ")
+      leia(num)
+      
+      se (x <= 50){
+      se(num % 2 == 0) {
+        soma = num + soma
+	    }
+      }senao{ se(num % 2 != 0) {
+        soma2 = num + soma2
+	  }
+      }
+      x++
+    } enquanto (x <= 100)
+
+    escreva("numeros pares somados: ", soma, "\n")
+    escreva("numeros impares somados: ", soma2, "\n")
+  }
+}

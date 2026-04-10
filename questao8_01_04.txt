@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio ()
+	{
+    inteiro x=1,numero=0, soma=0
+	real media, num=1
+	escreva("ou digite 0 para parar: ","\n")
+	enquanto (num != 0.0){
+		escreva("digite a  nota: ","\n")
+	    leia(num)
+	    se (num!=0.0) {
+			soma = soma + num
+			numero = numero + 1
+		    media = soma / numero 
+	}
+	    
+			
+	}
+	    
+		escreva("a soma das notas é: ",soma,"\n")
+	    escreva("a quantidade de numeros inteiros digitados foram: ",numero,"\n")
+	    escreva ("a media aritmética das notas é: ",media,"\n")
+	
+	}
+}

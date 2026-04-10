@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro senha, tentativas 
+		
+		enquanto (senha != 2026 ){
+			tentativas = tentativas + 1
+			escreva("digite a senha:")
+			leia(senha)
+			
+		}
+		escreva("aceasso liberado","\n")
+		escreva(tentativas," tentativas foram feitas","\n")
+		
+	}
+}

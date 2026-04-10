@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+	 inteiro x=1, num, soma=0
+	 
+	 enquanto (x<=100){
+	 	escreva ("digite um numero: ")
+	 	leia(num)
+	 	x++
+	 	soma = soma + num 
+	 	
+	 }
+	 	escreva("o numeros somados é: ",soma)
+	 }
+		
+	}
+}

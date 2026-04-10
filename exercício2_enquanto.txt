@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro nota
+	
+	
+	escreva("digite uma nota: ")
+	leia (nota)
+	
+	enquanto (nota < 0  ou nota > 10){
+		escreva("digita uma nota: ")
+		leia(nota)
+	}
+	 escreva("nota valida")
+		
+	}
+}

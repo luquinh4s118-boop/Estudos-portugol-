@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro x, num
+		
+		escreva("digite um número: ")
+		leia(num)
+		para(x=1;x<=20;x++){
+		escreva(x+num,"\n")
+		}
+		
+        
+	
+
+}
+}

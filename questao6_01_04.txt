@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro x, a, b
+
+     escreva("digite o primeiro numero: ")
+     leia(a)
+     escreva("digite o segundo numero: ")
+     leia(b)
+
+     para(x=a;x<=b;x++){
+     se (x>10 e x %2==0 ) {
+     escreva(x,"\n")
+  }
+}
+		
+	}
+}
